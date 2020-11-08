@@ -1,5 +1,14 @@
 We write software that has:
-Method 0: Authors
+Method 0: Authors: 
+
+Baasanjargal
+Danilo Souca
+Edgard Pacheco
+Jurijus Pacalovas
+Leonardo Kawachi
+Luiza Albuquerque
+Sean UY
+
 Method 1: print ‘Hello World’
 Method 2: add two numbers
 Method 3: subtract one number from another
