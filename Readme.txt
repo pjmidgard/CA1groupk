@@ -1,5 +1,5 @@
 We write software that has:
-Method 0: Authors: 
+Method 0: Authors:
 
 Baasanjargal
 Danilo Souca
