@@ -5,6 +5,10 @@
  */
 package ca1groupk;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+
 /**
  *
  * @author Jurijus Pacalovas
