@@ -95,18 +95,18 @@ public class CA1groupk {
    
            
             
-               total = addf(anum1, bnum2);//I have  made the addf function for add the numbers in the program. 
+               total = addf(anum1, bnum2);//I have made the addf function for add the numbers in the program. 
                
         System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " sum numbers " + total);//The program show numbers that is add.        
                
                
-               total = subf(anum1, bnum2);//I have  made the subf function for substract the numbers in the program.
+               total = subf(anum1, bnum2);//I have made the subf function for substract the numbers in the program.
                
                
         
          System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " subtract numbers " + total); //The program show numbers that is substract.
          
-                total = mulf(anum1, bnum2);//I have  made the mulf function for Multiply the numbers in the program.
+                total = mulf(anum1, bnum2);//I have made the mulf function for Multiply the numbers in the program.
                 
         
          System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " Multiply  numbers " + total); //The program show numbers that is Multiply. 
