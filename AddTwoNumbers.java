@@ -1,22 +1,41 @@
-// addition program in java
-import java.util.Scanner;
-public class AddTwoNumbers
-{
-   public static void main(String[] args)
-   {
-      int num1, num2, sum;
-      Scanner sc = new Scanner(System.in);
-      System.out.println("First number : ");
-      num1 = sc.nextInt();
-      System.out.println("Second number : ");
-      num2 = sc.nextInt();
-      sum = addTwo(num1, num2);
-      System.out.println("Sum : " + sum);
-      sc.close();
-   }
-   public static int addTwo(int a, int b)
-   {
-      int sum = a + b;
-      return sum;
-   }
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package method;
+
+/**
+ *
+ * @author seanuy
+ */
+public class Method {
+     static void seanMethod() {
+          /**
+           * author: Sean
+           */
+          
+         System.out.println("This is Sean's code");
+          
+        }
+     
+     static int addNumbers(int x,int y){
+                                        return x + y;
+                                     }
+    
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        seanMethod();
+        
+        int sum = addNumbers(40,10);
+        
+        System.out.println("Sum = " + sum);
+    
+    }
+    
 }
+
