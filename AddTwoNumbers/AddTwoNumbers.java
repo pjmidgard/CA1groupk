@@ -28,9 +28,12 @@ public class AddTwoNumbers {
       System.out.println("Sum : " + sum);
       sc.close();
     }
+}
+
      public static int addTwo(int a, int b)
    {
       int sum = a + b;
       return sum;
    }
 }
+
