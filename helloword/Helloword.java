@@ -1,10 +1,21 @@
-package helloworld;
+package helloword;
 
-public class HelloWorld {
+/**
+ *
+ * @author Angel2014fly
+ */
+public class Helloword {
 
-    public static void main(String[] args) {
-
-        System.out.println("Hello World! - Andre Goncalves, Brazil", "Hello World! Lucas Gustavo, Brazil");
+    /**
+     * @param args the command line arguments
+     */
+     static void HW(){ 
+        
+               System.out.println ("Hello World! - Andre Goncalves, Brazil\", \"Hello World! Lucas Gustavo, Brazil"); 
     }
-     //Enter your command line bellow, so we can test out the shared file and edition, please! :)
+    public static void main(String[] args) {
+        // TODO code application logic here
+        HW();
+    }
+    
 }
