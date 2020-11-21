@@ -68,7 +68,7 @@ public class CA1groupk {
         // TODO code application logic here
         //Class: Authors in the program.
         //I have created the CA1groupk main class in the program.
-        //I have created the myObj.x. in the program.
+        //I have created the myObj.x. object in the program.
         MyAuthors myObjl = new MyAuthors();
         System.out.println(myObjl.x);
         System.out.println(myObjl.x1);
