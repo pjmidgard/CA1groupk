@@ -13,7 +13,8 @@ public class MyFirstProject {
  * @param args the command line arguments
      */
 public static void main(String[] args) {
+   public void method() {
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
          String myName = "Luiza";
-               System.out.println ("Hello," + myName); }}
+               System.out.println ("Hello," + myName); }}}
               
