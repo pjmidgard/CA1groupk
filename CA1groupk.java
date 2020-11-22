@@ -13,9 +13,6 @@ Method 4: Multiply two numbers
 
  */
 
-
-
-
 package ca1groupk;
 
 import java.io.BufferedReader;//Public class BufferedReader extends Reader.
@@ -126,4 +123,4 @@ public class CA1groupk {
     }
     
     
-}
+
