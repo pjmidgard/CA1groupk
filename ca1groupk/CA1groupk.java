@@ -26,6 +26,22 @@ import java.io.InputStreamReader;//An InputStreamReader is a bridge from byte st
  */
 public class CA1groupk {
 
+    static void MyAuthors()
+    {
+      //Class: Authors in the program.
+        //I have created the CA1groupk main class in the program.
+        //I have created the myObj.x. object in the program.
+        MyAuthors myObjl = new MyAuthors();
+        System.out.println(myObjl.x);
+        System.out.println(myObjl.x1);
+        System.out.println(myObjl.x2);
+        System.out.println(myObjl.x3);
+        System.out.println(myObjl.x4);
+        System.out.println(myObjl.x5);
+        System.out.println(myObjl.x6);
+        System.out.println(myObjl.x7);
+    }
+        
     /**
      * @param args the command line arguments
      */
@@ -111,23 +127,13 @@ public class CA1groupk {
    //Method 4: Multiply two numbers
     public static void main(String[] args) {
         // TODO code application logic here
-        //Class: Authors in the program.
-        //I have created the CA1groupk main class in the program.
-        //I have created the myObj.x. object in the program.
-        MyAuthors myObjl = new MyAuthors();
-        System.out.println(myObjl.x);
-        System.out.println(myObjl.x1);
-        System.out.println(myObjl.x2);
-        System.out.println(myObjl.x3);
-        System.out.println(myObjl.x4);
-        System.out.println(myObjl.x5);
-        System.out.println(myObjl.x6);
-        System.out.println(myObjl.x7);
+      
         
+        MyAuthors();// I have crated the MyAuthors method in the program
        //Method 1: print ‘Hello World’ in the program.
         HW();
-        method();
-        methodm();
+        method();//Luiza
+        methodm();// I have crated the *,-,+ method in the program
         
         
     }
