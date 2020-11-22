@@ -129,10 +129,10 @@ public class CA1groupk {
         // TODO code application logic here
       
         
-        MyAuthors();// I have crated the MyAuthors method in the program
+        MyAuthors();// I have crated the MyAuthors method for Authors in the program
        //Method 1: print ‘Hello World’ in the program.
         HW();
-        method();//Luiza
+        method();//Hello world: Luiza
         methodm();// I have crated the *,-,+ method in the program
         
         
