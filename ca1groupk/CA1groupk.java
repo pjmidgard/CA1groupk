@@ -61,27 +61,15 @@ public class CA1groupk {
    return total; 
 }
      
+     static void method(){ 
+        String myName = "Luiza";
+               System.out.println ("Hello world by: " + myName); 
+    }
      
-   
-   //Method 4: Multiply two numbers
-    public static void main(String[] args) {
-        // TODO code application logic here
-        //Class: Authors in the program.
-        //I have created the CA1groupk main class in the program.
-        //I have created the myObj.x. object in the program.
-        MyAuthors myObjl = new MyAuthors();
-        System.out.println(myObjl.x);
-        System.out.println(myObjl.x1);
-        System.out.println(myObjl.x2);
-        System.out.println(myObjl.x3);
-        System.out.println(myObjl.x4);
-        System.out.println(myObjl.x5);
-        System.out.println(myObjl.x6);
-        System.out.println(myObjl.x7);
-        
-       //Method 1: print ‘Hello World’ in the program.
-        HW();
-        BufferedReader myKeyboard = new BufferedReader(new InputStreamReader(System.in)); 
+    static void methodm()
+             
+             {
+                      BufferedReader myKeyboard = new BufferedReader(new InputStreamReader(System.in)); 
       int anum1, bnum2, total;
         
       System.out.println("Please enter 1st number");
@@ -117,6 +105,29 @@ public class CA1groupk {
             
             System.out.println("That is not valid input -- only numbers allowed");//Error this varibles not numbers in the program.
         }
+                 
+             }
+   
+   //Method 4: Multiply two numbers
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //Class: Authors in the program.
+        //I have created the CA1groupk main class in the program.
+        //I have created the myObj.x. object in the program.
+        MyAuthors myObjl = new MyAuthors();
+        System.out.println(myObjl.x);
+        System.out.println(myObjl.x1);
+        System.out.println(myObjl.x2);
+        System.out.println(myObjl.x3);
+        System.out.println(myObjl.x4);
+        System.out.println(myObjl.x5);
+        System.out.println(myObjl.x6);
+        System.out.println(myObjl.x7);
+        
+       //Method 1: print ‘Hello World’ in the program.
+        HW();
+        method();
+        methodm();
         
         
     }
