@@ -29,9 +29,7 @@ public class MyFirstProject {
        }  
            }
 
-    /**
- * @Luiza
-     */
+
 public static void main(String[] args) {
    public void method() {
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));

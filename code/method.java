@@ -33,21 +33,34 @@ public class MyFirstProject {
            }
     
     
+     // main Method will control all the methods      
      public static void main(String[] args) {
 
-    MultiplyTwoNumbers();
 
-    BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
-         String myName = "Luiza";
-               System.out.println ("Hello world by: " + myName); 
+      helloWorld();
+      MultiplyTwoNumbers();
+   
 
 
-            }
+     }
+
+
+
+/**
+ * @author LuizaAlbuquerque
+ */
+
+      static void helloWorld ()  {
+
+        BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
+        String myName = "Luiza";
+        System.out.println ("Hello world by: " + myName); 
+
+
+
+      }     
             
-            
-/** 
- * @author EdgardPacheco
- */     
+    
             
 /** 
  * @author EdgardPacheco
@@ -78,5 +91,38 @@ public class MyFirstProject {
             
             
             
-            }
-               
+}
+
+/** 
+ * @author SeanUy
+ */  
+           
+       public class Method {
+     static void seanMethod() {
+          /**
+           * author: SeanUy
+           */
+          
+         System.out.println("This is Sean Uy's code");
+          
+        }
+     
+     static int addTwoNumbers(int x,int y){
+                                        return x + y;
+                                     }
+    
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // This code will add two numbers together.
+        
+        seanMethod();
+        
+        int sum = addTwoNumbers(40,10);
+        
+        System.out.println("Sum = " + sum);
+    
+    }
+    
+}
