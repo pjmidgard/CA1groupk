@@ -59,8 +59,8 @@ public class MyFirstProject {
             int r = n2 * n2;
 
             System.out.println(n1 +"x" + n2 + " = " + r + " by: Edgard Pacheco");
-            //// ghjgjhgjkhgjhgjh
-               //Baasanjargal
+            //// ghjgjhgjkhgjhg
+   * @author Baasanjargal
      Scanner obj = new Scanner (System.in);
      System.out.println("enter the first integer");
      int a = obj.nextInt();
