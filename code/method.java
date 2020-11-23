@@ -11,26 +11,59 @@ import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
  */
 public class MyFirstProject {
 
-    /**
- * @param args the command line arguments
-     */
+   static void leonardoMethod() {
+        
+     /**
+      * author Leonardo aka IHateMyTiming
+      */
+     Scanner myKb = new Scanner(System.in);
+       
+       int num1;
+       int num2;
+       try{
+        System.out.println("Please enter an integer");
+        num1 = myKb.nextInt();
+           System.out.println("Please enter a second integer");
+        num2 = myKb.nextInt();
+        int num3 = num1 - num2;
+        System.out.println("The result of " + num1 + " - " + num2 + " is " + num3);
+ 
+       }catch(Exception e ){System.out.println("There was not an integer");
+       }  
+           }
     
     
+     // main Method will control all the methods      
      public static void main(String[] args) {
 
-    static void luizaMethod();
-
-    BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
-         String myName = "Luiza";
-               System.out.println ("Hello world by: " + myName); 
 
 
-            }
+        /*
+        BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
+        String myName = "Luiza";
+        System.out.println ("Hello world by: " + myName); 
+        */
+
+
+     }
+
+
+
+/**
+ * Luiza
+ */
+
+      static void helloWorld ()  {
+
+        BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
+        String myName = "Luiza";
+        System.out.println ("Hello world by: " + myName); 
+
+
+
+      }     
             
-            
-/** 
- * @author EdgardPacheco
- */     
+    
             
 /** 
  * @author EdgardPacheco
@@ -42,11 +75,13 @@ public class MyFirstProject {
             int r = n2 * n2;
 
             System.out.println(n1 +"x" + n2 + " = " + r + " by: Edgard Pacheco");
+            //// ghjgjhgjkhgjhgjh
+        
         }
             
             
             
             
             
-            }
+}
                
