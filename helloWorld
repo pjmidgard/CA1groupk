@@ -9,9 +9,7 @@ import java.io.InputStreamReader;
  */
 public class MyFirstProject {
 
-    /**
- * @param args the command line arguments
-     */
+
 public static void main(String[] args) {
    public void method() {
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
