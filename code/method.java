@@ -33,21 +33,36 @@ public class MyFirstProject {
            }
     
     
+     // main Method will control all the methods      
      public static void main(String[] args) {
 
-    MultiplyTwoNumbers();
+        MultiplyTwoNumbers();
+        helloWorld();
 
-    BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
-         String myName = "Luiza";
-               System.out.println ("Hello world by: " + myName); 
+        /*
+        BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
+        String myName = "Luiza";
+        System.out.println ("Hello world by: " + myName); 
+        */
 
 
-            }
+     }
+
+
+
+/**
+ * Luiza
+ */
+
+      static void helloWorld ()  {
+
+        BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
+        String myName = "Luiza";
+        System.out.println ("Hello world by: " + myName); 
+
+      }     
             
-            
-/** 
- * @author EdgardPacheco
- */     
+    
             
 /** 
  * @author EdgardPacheco
@@ -59,7 +74,7 @@ public class MyFirstProject {
             int r = n2 * n2;
 
             System.out.println(n1 +"x" + n2 + " = " + r + " by: Edgard Pacheco");
-            //// ghjgjhgjkhgjhgjh
+            
         
         }
             
@@ -67,5 +82,5 @@ public class MyFirstProject {
             
             
             
-            }
+}
                
