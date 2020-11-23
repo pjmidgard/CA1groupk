@@ -35,4 +35,21 @@ public static void main(String[] args) {
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
          String myName = "Luiza";
                System.out.println ("Hello," + myName); }}}
+               public static void main(String[] args) {
+
+
+
+                  
+      * author Baasanjargal
+        Scanner obj = new Scanner(System.in);
+        System.out.println("enter the first integer");
+        int a = obj.nextInt();
+        System.out.println("enter the second integer");
+        int b = obj.nextInt();
+        System.out.println("the nultipy two number is:"+(a+b));
+     
+    }
+
+    
+}
               
