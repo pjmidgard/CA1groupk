@@ -104,19 +104,18 @@ public class MyFirstProject {
         System.out.println("Sum = " + sum);
     
     }
-  
+    
+}
+public static void main(String[] args) {
+* @author Baasanjargal
+  Scanner obj = new Scanner(System.in);
+  System.out.println("enter the first integer");
+  int a = obj.nextInt();
+  System.out.println("enter the second integer");
+  int b = obj.nextInt();
+  System.out.println("the nultipy two number is:"+(a+b));
 
-  }
-  * @author Baasanjargal
-  public static void main(String[] args) {
-    Scanner obj = new Scanner(System.in);
-    System.out.println("enter the first integer");
-    int a = obj.nextInt();
-    System.out.println("enter the second integer");
-    int b = obj.nextInt();
-    System.out.println("the nultipy two number is:"+(a+b));
- 
-     }
+}
 
 
-  }
+}
