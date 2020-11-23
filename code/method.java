@@ -18,7 +18,7 @@ public class MyFirstProject {
     
      public static void main(String[] args) {
 
-    MultiplyTwoNumbers();
+    static void luizaMethod();
 
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
          String myName = "Luiza";
