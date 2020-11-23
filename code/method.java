@@ -42,6 +42,7 @@ public class MyFirstProject {
             int r = n2 * n2;
 
             System.out.println(n1 +"x" + n2 + " = " + r + " by: Edgard Pacheco");
+            //Baasanjargal that is nice
         }
             
             
