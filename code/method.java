@@ -81,4 +81,37 @@ public class MyFirstProject {
             
             
 }
-               
+
+/** 
+ * @author SeanUy
+ */  
+           
+       public class Method {
+     static void seanMethod() {
+          /**
+           * author: SeanUy
+           */
+          
+         System.out.println("This is Sean Uy's code");
+          
+        }
+     
+     static int addTwoNumbers(int x,int y){
+                                        return x + y;
+                                     }
+    
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // This code will add two numbers together.
+        
+        seanMethod();
+        
+        int sum = addTwoNumbers(40,10);
+        
+        System.out.println("Sum = " + sum);
+    
+    }
+    
+}
