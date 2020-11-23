@@ -60,6 +60,8 @@ public class MyFirstProject {
         String myName = "Luiza";
         System.out.println ("Hello world by: " + myName); 
 
+
+
       }     
             
     
@@ -74,7 +76,7 @@ public class MyFirstProject {
             int r = n2 * n2;
 
             System.out.println(n1 +"x" + n2 + " = " + r + " by: Edgard Pacheco");
-            
+            //// ghjgjhgjkhgjhgjh
         
         }
             
