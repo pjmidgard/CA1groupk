@@ -45,42 +45,21 @@ public class CA1groupk {
     /**
      * @param args the command line arguments
      */
-    //I have made the method HW for Hello World.
-     static void HW() {
-      System.out.println("Hello World!!!");
-  }
+  
     
-    //method Multiply  add one number from another in the program.
+    //method divide one number from another in the program.
      
      public static int addf(int n1, int n2) {
    int total;
    
-    total=n1+n2;
+    
+    total=n1/n2;
+    
     
    return total; 
 }
      //metod minus  one number from another in the program.
-     
-   public static int subf(int n1, int n2) {
-   int total;
-   
-    total=n1-n2;
-    
-   return total; 
-}
-      //method Multiply one number from another in the program.
-    public static  int mulf(int n1, int n2) {
-   int total;
-   
-    total=n1*n2;
-    
-   return total; 
-}
-     
-     static void method(){ 
-        String myName = "Luiza";
-               System.out.println ("Hello world by: " + myName); 
-    }
+
      
     static void methodm()
              
@@ -96,25 +75,16 @@ public class CA1groupk {
         
             System.out.println("Please enter 2nd number");
              bnum2 = Integer.parseInt(myKeyboard.readLine());
-   
-           
-            
+          if (anum1==0)
+                  {
+                    System.out.println("Error");
+                    System.exit(0);
+                 }
+          
                total = addf(anum1, bnum2);//I have made the addf metod for add the numbers in the program. 
-               
+         
         System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " sum numbers " + total);//The program show numbers that is add.        
-               
-               
-               total = subf(anum1, bnum2);//I have made the subf method for substract the numbers in the program.
-               
-               
-        
-         System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " subtract numbers " + total); //The program show numbers that is substract.
-         
-                total = mulf(anum1, bnum2);//I have made the mulf method for Multiply the numbers in the program.
-                
-        
-         System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " Multiply  numbers " + total); //The program show numbers that is Multiply. 
-         
+          
        
         }
         catch (Exception e){
@@ -131,8 +101,8 @@ public class CA1groupk {
         
         MyAuthors();// I have crated the MyAuthors method for Authors in the program
        //Method 1: print ‘Hello World’ in the program.
-        HW();
-        method();//Hello world: Luiza
+     
+ 
         methodm();// I have crated the *,-,+ method in the program
         
         
