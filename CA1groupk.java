@@ -75,7 +75,7 @@ public class CA1groupk {
         
             System.out.println("Please enter 2nd number");
              bnum2 = Integer.parseInt(myKeyboard.readLine());
-          if (anum2==0)
+          if (anum1==0)
                   {
                     System.out.println("Error");
                     System.exit(0);
