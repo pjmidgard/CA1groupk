@@ -5,12 +5,8 @@
 We enjoy writing programs.
 
 We write software that has:
-Class: Authors
-Method 1: print ‘Hello World’
-Method 2: add two numbers
-Method 3: subtract one number from another
-Method 4: Multiply two numbers
 
+Jurijus: (Class: Authors; Method: Authors and / method.)
  */
 
 
@@ -94,7 +90,7 @@ public class CA1groupk {
                  
              }
    
-   //Method 4: Multiply two numbers
+   //Method 4: Divide two numbers
     public static void main(String[] args) {
         // TODO code application logic here
       
