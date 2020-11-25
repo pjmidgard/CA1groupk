@@ -90,7 +90,7 @@ public class CA1groupk {
                  
              }
    
-   //Method 4: Divide two numbers
+   //Method 2 Divide two numbers
     public static void main(String[] args) {
         // TODO code application logic here
       
