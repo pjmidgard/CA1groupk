@@ -5,12 +5,8 @@
 We enjoy writing programs.
 
 We write software that has:
-Class: Authors
-Method 1: print ‘Hello World’
-Method 2: add two numbers
-Method 3: subtract one number from another
-Method 4: Multiply two numbers
 
+Jurijus: (Class: Authors; Method: Authors and / method.)
  */
 
 
@@ -49,8 +45,8 @@ public class CA1groupk {
     
     //method divide one number from another in the program.
      
-     public static float addf(float n1, float n2) {
-   float total;
+     public static int addf(int n1, int n2) {
+   int total;
    
     
     total=n1/n2;
@@ -65,17 +61,17 @@ public class CA1groupk {
              
              {
                       BufferedReader myKeyboard = new BufferedReader(new InputStreamReader(System.in)); 
-      float anum1, bnum2, total;
+      int anum1, bnum2, total;
         
       System.out.println("Please enter 1st number");
         
         try{
-            anum1 = Float.parseFloat(myKeyboard.readLine());
+            anum1 = Integer.parseInt(myKeyboard.readLine()); 
             //readLine() method ONLY reads text - need Integer.parseInt to convert to int value (if possible)
         
             System.out.println("Please enter 2nd number");
-             bnum2 = Float.parseFloat(myKeyboard.readLine());
-          if (bnum2==0)
+             bnum2 = Integer.parseInt(myKeyboard.readLine());
+          if (anum2==0)
                   {
                     System.out.println("Error");
                     System.exit(0);
@@ -94,7 +90,7 @@ public class CA1groupk {
                  
              }
    
-   //Method 2: dived two numbers
+   //Method 4: Divide two numbers
     public static void main(String[] args) {
         // TODO code application logic here
       
