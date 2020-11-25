@@ -9,8 +9,14 @@ Leonardo Kawachi
 Luiza Albuquerque
 Sean UY
 
-Method 1: print ‘Hello World’
-Method 2: add two numbers
-Method 3: subtract one number from another
-Method 4: Multiply two numbers
-Github Link: https://github.com/pjmidgard/CA1groupk
+Jurijus:
+
+Class: Authors
+Method 1: I have crated the MyAuthors method for Authors in the program.
+Method 2: / method in the program
+
+luiza:  Hello word
+Leonardo:  Subtracting two numbers
+Sean: Adding two numbers
+Baaska: multiply two numbers
+Edgar: methods
