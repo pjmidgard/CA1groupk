@@ -49,8 +49,8 @@ public class CA1groupk {
     
     //method divide one number from another in the program.
      
-     public static int addf(int n1, int n2) {
-   int total;
+     public static float addf(float n1, float n2) {
+   float total;
    
     
     total=n1/n2;
@@ -65,17 +65,17 @@ public class CA1groupk {
              
              {
                       BufferedReader myKeyboard = new BufferedReader(new InputStreamReader(System.in)); 
-      int anum1, bnum2, total;
+      float anum1, bnum2, total;
         
       System.out.println("Please enter 1st number");
         
         try{
-            anum1 = Integer.parseInt(myKeyboard.readLine()); 
+            anum1 = Float.parseFloat(myKeyboard.readLine());
             //readLine() method ONLY reads text - need Integer.parseInt to convert to int value (if possible)
         
             System.out.println("Please enter 2nd number");
-             bnum2 = Integer.parseInt(myKeyboard.readLine());
-          if (anum1==0)
+             bnum2 = Float.parseFloat(myKeyboard.readLine());
+          if (bnum2==0)
                   {
                     System.out.println("Error");
                     System.exit(0);
@@ -94,7 +94,7 @@ public class CA1groupk {
                  
              }
    
-   //Method 4: Multiply two numbers
+   //Method 2: dived two numbers
     public static void main(String[] args) {
         // TODO code application logic here
       
