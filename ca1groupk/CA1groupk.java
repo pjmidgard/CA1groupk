@@ -73,11 +73,11 @@ public class CA1groupk {
              bnum2 = Integer.parseInt(myKeyboard.readLine());
           if (anum2==0)
                   {
-                    System.out.println("Error");
+                    System.out.println("Error");//if divide by 0 show error
                     System.exit(0);
                  }
           
-               total = addf(anum1, bnum2);//I have made the addf metod for add the numbers in the program. 
+               total = addf(anum1, bnum2);//I have made the addf metod for dividing the numbers in the program. 
          
         System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " sum numbers " + total);//The program show numbers that is add.        
           
@@ -99,7 +99,7 @@ public class CA1groupk {
        //Method 1: print ‘Hello World’ in the program.
      
  
-        methodm();// I have crated the *,-,+ method in the program
+        methodm();// I have crated the / method in the program
         
         
     }
