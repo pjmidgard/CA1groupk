@@ -9,14 +9,9 @@ Leonardo Kawachi
 Luiza Albuquerque
 Sean UY
 
-Jurijus:
-
-Class: Authors
-Method 1: I have crated the MyAuthors method for Authors in the program.
-Method 2: / method in the program
-
-luiza:  Hello word
-Leonardo:  Subtracting two numbers
-Sean: Adding two numbers
-Baaska: multiply two numbers
-Edgar: methods
+Participants: Edgard Pacheco (java program: get 2 int and multiply)
+Luiza Albuquerque (java program: print "hello world")
+Leonardo Kawachi (java project: subtract one number from another)
+Sean Uy (java project: add two numbers)
+Baasanjargal Zuunnasan (java project: add, multiply two numbers)
+Jurijus: (Class: Authors; Method: Authors and / method.)
