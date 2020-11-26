@@ -15,6 +15,7 @@ public class MyFirstProject {
       leonardoMethod(); // Leonardo
       baasan(); //Baasanjargal
       seanMethod(); // Sean
+      methodm();//Jurijus   
 
      }   
       /**
@@ -91,6 +92,50 @@ public class MyFirstProject {
 
 
        }
+    public static float addf(float n1, float n2) {
+   float total;
+   
+    
+    total=n1/n2;
+    
+    
+   return total; 
+}
+     //metod minus  one number from another in the program.
+
+     
+    static void methodm()
+             
+             {
+                      BufferedReader myKeyboard = new BufferedReader(new InputStreamReader(System.in)); 
+      float anum1, bnum2, total;
+        
+      System.out.println("Please enter 1st number");
+        
+        try{
+            anum1 = Float.parseFloat(myKeyboard.readLine());
+            //readLine() method ONLY reads text - need Integer.parseInt to convert to int value (if possible)
+        
+            System.out.println("Please enter 2nd number");
+             bnum2 = Float.parseFloat(myKeyboard.readLine());
+          if (bnum2==0)
+                  {
+                    System.out.println("Error");//if divide by 0 show error
+                    System.exit(0);
+                 }
+          
+               total = addf(anum1, bnum2);//I have made the addf metod for dividing the numbers in the program. 
+         
+        System.out.println(" num1 " + anum1 + " and num2 " + bnum2 + " sum numbers " + total);//The program show numbers that is add.        
+          
+       
+        }
+        catch (Exception e){
+            
+            System.out.println("That is not valid input -- only numbers allowed");//Error this varibles not numbers in the program.
+        }
+                 
+             }
 
     
 }
