@@ -80,15 +80,40 @@ public class MyFirstProject {
             
             }         
 
+     
+                /**
+ *
+ * @author SeanUy
+ */
+public class Method {
+     static void seanMethod() {
           /**
            * author: SeanUy
            */
           
-      static void seanMethod() {
-
-       
-      // Sean Right again seu code here, the medoth is alread created 
-      //Just put you code here 
+         System.out.println("This is Sean's code");
+          
+        }
+     
+     static int addNumbers(int x,int y){
+                                        return x + y;
+                                     }
+    
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        seanMethod();
+        
+        int sum = addNumbers(40,10);
+        
+        System.out.println("Sum = " + sum);
+    
+    }
+    
+}      
 
 
        }
