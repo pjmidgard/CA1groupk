@@ -92,6 +92,9 @@ public class MyFirstProject {
 
 
        }
+    /*
+    * author: Jurijus
+    */
     public static float addf(float n1, float n2) {
    float total;
     total=n1/n2;
