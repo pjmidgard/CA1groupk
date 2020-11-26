@@ -113,10 +113,7 @@ public class Method {
     
     }
     
-}      
-
-
-       
+}          
     /*
     * author: Jurijus
     */
@@ -126,8 +123,6 @@ public class Method {
    return total; 
 }
      //metod: divide one number from another in the program.
-
-     
     static void methodm()
              
              {
@@ -161,6 +156,4 @@ public class Method {
                  
              }
     /*The end*/
-
-
   }
