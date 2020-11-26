@@ -94,11 +94,7 @@ public class MyFirstProject {
        }
     public static float addf(float n1, float n2) {
    float total;
-   
-    
     total=n1/n2;
-    
-    
    return total; 
 }
      //metod minus  one number from another in the program.
