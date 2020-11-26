@@ -116,7 +116,7 @@ public class Method {
 }      
 
 
-       }
+       
     /*
     * author: Jurijus
     */
@@ -162,6 +162,5 @@ public class Method {
              }
     /*The end*/
 
-    
-}
 
+  }
