@@ -100,7 +100,7 @@ public class MyFirstProject {
     total=n1/n2;
    return total; 
 }
-     //metod minus  one number from another in the program.
+     //metod: divide one number from another in the program.
 
      
     static void methodm()
