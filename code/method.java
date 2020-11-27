@@ -1,10 +1,10 @@
-package myfirstproject;
+package method;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
-public class MyFirstProject {
+public class Method {
     
      // main Method will control all the methods   
      
