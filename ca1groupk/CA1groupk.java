@@ -54,7 +54,7 @@ public class CA1groupk {
     
    return total; 
 }
-     //metod minus  one number from another in the program.
+     //metod divde one number from another in the program.
 
      
     static void methodm()
