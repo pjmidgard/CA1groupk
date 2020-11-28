@@ -1,7 +1,13 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package helloworld;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner; // Import the Scanner class to read text files.
 
 /**
  *
@@ -28,19 +34,18 @@ public class HelloWorld {
        }catch(Exception e ){System.out.println("There was not an integer");
        }  
            }
-
-
-public static void main(String[] args) {
-   public void method() {
+    
+       public void method() {
     BufferedReader someInputVar = new BufferedReader(new InputStreamReader(System.in));
          String myName = "Luiza";
-               System.out.println ("Hello," + myName); }}}
+               System.out.println ("Hello," + myName); 
                public static void main(String[] args) {
 
 
-
+        leonardoMethod();
+        method();
                   
-      * author Baasanjargal
+      ///author Baasanjargal
         Scanner obj = new Scanner(System.in);
         System.out.println("enter the first integer");
         int a = obj.nextInt();
@@ -49,7 +54,8 @@ public static void main(String[] args) {
         System.out.println("the nultipy two number is:"+(a+b));
      
     }
-
-    
 }
-              
+}
+
+
+         
