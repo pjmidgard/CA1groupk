@@ -2,6 +2,7 @@ package method;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Scanner; // Import the Scanner class to read text files.
 import jdk.javadoc.internal.doclets.formats.html.SourceToHTMLConverter;
 
 public class Method {
@@ -16,6 +17,11 @@ public class Method {
       baasan(); //Baasanjargal
       seanMethod(); // Sean
       methodm();//Jurijus   
+      seanMethod();//SeanUy
+        
+      int sum = addNumbers(40,10);
+        
+      System.out.println("Sum = " + sum);   
 
      }   
       /**
@@ -85,7 +91,7 @@ public class Method {
  *
  * @author SeanUy
  */
-public class Method {
+
      static void seanMethod() {
           /**
            * author: SeanUy
@@ -102,18 +108,9 @@ public class Method {
      /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        
-        seanMethod();
-        
-        int sum = addNumbers(40,10);
-        
-        System.out.println("Sum = " + sum);
+   
     
-    }
-    
-}          
+         
     /*
     * author: Jurijus
     */
