@@ -18,11 +18,7 @@ public class Method {
       seanMethod(); // Sean
       methodm();//Jurijus   
       seanMethod();//SeanUy
-        
-      int sum = addNumbers(40,10);
-        
-      System.out.println("Sum = " + sum);   
-
+       
      }   
       /**
        * author Leonardo aka IHateMyTiming
@@ -98,6 +94,9 @@ public class Method {
            */
           
          System.out.println("This is Sean's code");
+         int sum = addNumbers(40,10);
+        
+          System.out.println("Sum = " + sum);  
           
         }
      
